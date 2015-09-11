@@ -64,4 +64,4 @@ Constructors represent a special case of the principle that you should check the
 ## Exception translation
 Occasionally, a computation implicitly performs a required validity check but throws the wrong exception if the check fails. In other words, the exception that the computation would naturally throw as the result of an invalid parameter value doesn’t match the exception that the method is documented to throw. Under these circumstances, you should use the exception translation idiom, described in Item 61, to translate the natural exception into the correct one.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

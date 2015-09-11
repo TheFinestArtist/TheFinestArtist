@@ -69,4 +69,4 @@ public Date end() {
 * Do not use the clone method to make a defensive copy of a parameter whose type is subclassable by untrusted parties
 * Experienced programmers often use the primitive long returned by Date.getTime() as an internal time representation instead of using a Date reference
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

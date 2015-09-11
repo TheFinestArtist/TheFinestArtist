@@ -9,4 +9,4 @@
 4. Libraries also tend to gain new functionality over time
 5. You place your code in the mainstream
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

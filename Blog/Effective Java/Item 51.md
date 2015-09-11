@@ -25,4 +25,4 @@ public String statement() {
 
 Because the first method is quadratic in the number of items and the second is linear, the performance difference is even more dramatic for larger numbers of items.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

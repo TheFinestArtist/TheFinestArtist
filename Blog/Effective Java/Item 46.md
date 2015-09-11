@@ -43,4 +43,4 @@ for (Element e : elements) {
 3. **Parallel iteration**  
    If you need to traverse multiple collections in parallel, then you need explicit control over the iterator or index variable, so that all it- erators or index variables can be advanced in lockstep (as demonstrated unin- tentionally in the buggy card and dice examples above).
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

@@ -2,7 +2,7 @@
 
 #### From <u>[Effective Java 2/e](https://books.google.co.kr/books/about/Effective_Java.html?id=ka2VUBqHiWkC&hl=en)</u> by <u>[Joshua Bloch](https://en.wikipedia.org/wiki/Joshua_Bloch)</u>
 
-## [Information Hiding](http://en.wikipedia.org/wiki/Information_hiding) or [Encapsulation](goo.gl/Asgxp4)
+## <u>[Information Hiding](http://en.wikipedia.org/wiki/Information_hiding)</u> or <u>[Encapsulation](goo.gl/Asgxp4)</u>
 > Principle of segregation of the design decisions in a computer program that are most likely to change, thus protecting other parts of the program from extensive modification if the design decision is changed. The protection involves providing a stable interface which protects the remainder of the program from the implementation (the details that are most likely to change).
 
 * Decouples the modules that comprise a system, allowing them to be developed, tested, optimized, used, understood, and modified in isolation
@@ -81,4 +81,4 @@ public static final Thing[] values() {
    </tr>
 </table>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

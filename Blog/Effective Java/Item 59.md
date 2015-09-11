@@ -40,4 +40,4 @@ In cases where the programmer knows the call will succeed or is content to let t
 obj.action(args);
 </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

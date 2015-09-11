@@ -115,4 +115,4 @@ public enum Phase {
 
 EnumMap is easier to add new enum values: Now suppose you want to add a new phase to the system: the plasma, or ionized gas
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

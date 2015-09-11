@@ -93,4 +93,4 @@ public static void main(String... args) {
 
 **Don’t create a new object when you should reuse an existing one**
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

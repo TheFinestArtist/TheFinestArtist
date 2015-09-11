@@ -52,4 +52,4 @@ public static void main(String[] args) {
 
 * Exercise care when using the varargs facility in performance-critical situations. Every invocation of a varargs method causes an array allocation and initialization.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

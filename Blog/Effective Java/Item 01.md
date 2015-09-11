@@ -35,4 +35,4 @@ newType()
 
 Consider to make static factory method for each class because it has lots of advantages.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

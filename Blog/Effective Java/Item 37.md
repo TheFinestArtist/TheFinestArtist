@@ -18,4 +18,4 @@ A **marker interface** is an interface that contains no method declarations, but
 2. If you want to define a type that does not have any new methods associated with it, a marker interface is the way to go.
 3. If you want to mark program elements other than classes and interfaces, to allow for the possibility of adding more information to the marker in the future, or to fit the marker into a framework that already makes heavy use of annotation types, then a marker annotation is the correct choice.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

@@ -88,4 +88,4 @@ public static &lt;T extends Comparable&lt;T&gt;&gt; T max(List&lt;T&gt; list) {
 }
 </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

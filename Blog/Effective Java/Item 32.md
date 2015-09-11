@@ -37,4 +37,4 @@ text.applyStyles(EnumSet.of(Style.BOLD, Style.ITALIC));
 2. The EnumSet class combines the conciseness and performance of bit fields
 3. All the many advantages of enum types
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

@@ -31,4 +31,4 @@ public List&lt;Cheese&gt; getCheeseList() {
 * It is error-prone, because the programmer writing the client might forget to write the special- case code to handle a null return
 * Returning null in place of an empty array also complicates the method that returns the array or collection
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

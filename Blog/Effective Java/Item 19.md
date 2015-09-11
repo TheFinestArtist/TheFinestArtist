@@ -31,4 +31,4 @@ public class PhysicalConstants {
 
 *you can avoid the need for qualifying the constants with the class name by making use of the **static import** facility*
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

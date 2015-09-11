@@ -14,7 +14,7 @@
 
 ### Telescoping Constructor Pattern, Java Bean Pattern, Builder Pattern
 
-**[Telescoping Constructor Pattern](http://www.captaindebug.com/2011/05/telescoping-constructor-antipattern.html#.VV1RdVmeDRY)**
+<u>**[Telescoping Constructor Pattern](http://www.captaindebug.com/2011/05/telescoping-constructor-antipattern.html#.VV1RdVmeDRY)**</u>
 <pre class="prettyprint">
 public class FoodTelescopingDemo {
 
@@ -81,7 +81,7 @@ public class FoodTelescopingDemo {
 }
 </pre>
 
-**[Builder Pattern](http://en.wikipedia.org/wiki/Builder_pattern)**
+<u>**[Builder Pattern](http://en.wikipedia.org/wiki/Builder_pattern)**</u>
 <pre class="prettyprint">
 public class StreetMap {
 	private final Point origin;
@@ -162,4 +162,4 @@ public class StreetMap {
 }
 </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

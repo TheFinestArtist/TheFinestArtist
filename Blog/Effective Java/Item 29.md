@@ -80,4 +80,4 @@ static Annotation getAnnotation(AnnotatedElement element, String annotationTypeN
 ## asSubclass Method
 Class provides an instance method that performs this sort of cast safely (and dynamically). The method is called asSubclass, and it casts the Class object on which it’s called to represent a subclass of the class represented by its argument.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

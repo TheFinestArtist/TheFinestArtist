@@ -25,4 +25,4 @@
 
 * prohibit subclassing in classes that are not designed and documented to be safely subclassed
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

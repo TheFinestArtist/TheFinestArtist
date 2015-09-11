@@ -13,7 +13,7 @@ public interface Cloneable {
 }
 </pre>
 
-## [General contract](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/lang/Object.java#Object.clone%28%29) for the clone method
+## <u>[General contract](http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/lang/Object.java#Object.clone%28%29)</u> for the clone method
 
 > Creates and returns a copy of this object. The precise meaning of “copy” may depend on the class of the object. The general intent is that, for any object x, the expression  
 <code id="inline">x.clone() != x</code>  
@@ -106,4 +106,4 @@ public class HashTable implements Cloneable {
    public static Yum newInstance(Yum yum);
    </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

@@ -90,4 +90,4 @@ In a public API, the second is better because it’s simpler. You pass in a list
 
 **if a type parameter appears only once in a method declaration, replace it with a wildcard**
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

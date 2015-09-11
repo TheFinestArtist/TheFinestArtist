@@ -56,4 +56,4 @@ public static void main(String[] args) {
 * Autoboxing reduces the verbosity, but not the danger, of using boxed primitives
 * When your program does mixed-type computations involving boxed and unboxed primitives, it does unboxing, and when your program does unboxing, it can throw a NullPointerException
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

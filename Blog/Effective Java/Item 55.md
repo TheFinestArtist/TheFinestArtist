@@ -21,4 +21,4 @@
    * generally the case that good API design is consistent with good performance
 5. Measure performance before and after each attempted optimization
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

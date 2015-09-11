@@ -39,4 +39,4 @@ public final class Time {
 }
 </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

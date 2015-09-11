@@ -174,4 +174,4 @@ static int numElementsInCommon(Set&lt;?&gt; s1, Set&lt;?&gt; s2) {
 * Only null can be added to List&lt;?&gt;
 * Number or Object extending Number can be added to List&lt;? extends Number&gt;
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

@@ -12,4 +12,4 @@
 * Prefer two-element enum types to boolean parameters
    * <code id="inline">public enum TemperatureScale { FAHRENHEIT, CELSIUS }</code>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

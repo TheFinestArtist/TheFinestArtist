@@ -86,4 +86,4 @@ public class ForwardingSet&lt;E&gt; implements Set&lt;E&gt; {
 
 **Inheritance is appropriate only in circumstances where the subclass really is a subtype of the superclass**
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

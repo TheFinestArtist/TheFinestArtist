@@ -3,8 +3,8 @@
 #### From <u>[Effective Java 2/e](https://books.google.co.kr/books/about/Effective_Java.html?id=ka2VUBqHiWkC&hl=en)</u> by <u>[Joshua Bloch](https://en.wikipedia.org/wiki/Joshua_Bloch)</u>
 
 ## Finalizer or Finalize Methods
-* http://en.wikipedia.org/wiki/Finalizer
-* http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#finalize%28%29
+* <u>[Finalizer](http://en.wikipedia.org/wiki/Finalizer)</u>
+* <u>[Finalize Methods](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#finalize%28%29)</u>
 
 ## Why?
 * No guarantee that finalizers will get executed promptly
@@ -49,7 +49,7 @@ try {
 }
 </pre>
 
-## [Finalizer Guardian Example](http://stackoverflow.com/questions/6872857/how-does-a-finalizer-guardian-work-in-java)
+## <u>[Finalizer Guardian Example](http://stackoverflow.com/questions/6872857/how-does-a-finalizer-guardian-work-in-java)</u>
 * If a subclass implementor overrides a superclass finalizer but forgets to invoke the superclass finalizer
 
 <pre class="prettyprint">
@@ -88,4 +88,4 @@ class Child extends Parent {
 }
 </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

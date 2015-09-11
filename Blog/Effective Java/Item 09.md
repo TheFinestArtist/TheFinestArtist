@@ -41,4 +41,4 @@ private volatile int hashCode;  // (See Item 71)
 
 Do not be tempted to exclude significant parts of an object from the hash code computation to improve performance
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

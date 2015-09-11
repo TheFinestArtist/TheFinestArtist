@@ -57,4 +57,4 @@ public static void main(String[] args) {
 * Generate three runtime errors, all of which would have been compile-time errors if reflective instantiation were not used
 * It takes twenty lines of tedious code to generate an instance of the class
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

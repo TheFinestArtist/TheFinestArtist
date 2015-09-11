@@ -60,4 +60,4 @@ class Host {
 * When a concrete strategy is used only once, it is typically declared and instantiated as an anonymous class
 * When a concrete strategy is designed for repeated use, it is generally implemented as a private static member class and exported in a public static final field whose type is the strategy interface.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

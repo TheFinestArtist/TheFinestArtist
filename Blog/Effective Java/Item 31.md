@@ -35,4 +35,4 @@ public enum Ensemble {
 **Enum specification has this to say about ordinal**  
 *Most programmers will have no use for this method. It is designed for use by general-purpose enum- based data structures such as EnumSet and EnumMap.*
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

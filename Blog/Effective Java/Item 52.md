@@ -25,4 +25,4 @@ Vector&lt;Subscriber&gt; subscribers = new Vector&lt;Subscriber&gt;();
 
 * If you depend on any special properties of an implementation, document these requirements where you declare the variable.
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

@@ -132,4 +132,4 @@ p1.equals(p3) == false;
 4. For each “significant” field in the class, check if that field of the argument matches the corresponding field of this object
 5. When you are finished writing your equals method, ask yourself three questions: Is it symmetric? Is it transitive? Is it consistent?
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

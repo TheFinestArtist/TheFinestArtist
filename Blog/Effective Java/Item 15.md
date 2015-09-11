@@ -103,4 +103,4 @@ public final class Complex {
 5. Immutable objects make great building blocks for other objects (i.e. map, set)
 6. The only real disadvantage of immutable classes is that they require a separate object for each distinct value
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

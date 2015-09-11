@@ -7,7 +7,7 @@
    * If Sub is a subtype of Super, then the array type Sub[] is a subtype of Super[]
    * For any two distinct types Type1 and Type2, List&lt;Type1&gt; is neither a subtype nor a supertype of List&lt;Type2&gt;
 
-</pre>
+<pre class="prettyprint">
 // Fails at runtime!
 Object[] objectArray = new Long[1];
 objectArray[0] = "I don't fit in"; // Throws ArrayStoreException
@@ -41,4 +41,4 @@ static &lt;E&gt; E reduce(List&lt;E&gt; list, Function&lt;E&gt; f, E initVal) {
 }
 </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

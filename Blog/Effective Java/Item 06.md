@@ -84,4 +84,4 @@ public class WeakPropertyChangeListener implements PropertyChangeListener{
 }
 </pre>
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>

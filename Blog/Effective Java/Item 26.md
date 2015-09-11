@@ -115,8 +115,8 @@ public class Stack&lt;E&gt; {
 }
 </pre>
 
-####First solution v/s Second solution
+### First solution v/s Second solution
 * It is riskier to suppress an unchecked cast to an array type than to a scalar type, which would suggest the second solution.
 * Second solution would require many casts to E rather than a single cast to E[], which is why the first solution is used more commonly
 
-#### Posted by <u>[The Finest Artist](http://thefinestartist.com)
+#### Posted by <u>[The Finest Artist](http://thefinestartist.com)</u>
