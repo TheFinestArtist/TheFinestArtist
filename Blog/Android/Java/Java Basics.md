@@ -126,3 +126,11 @@ You can, the distinction is that the inner class is at the "class" access level,
 > If a class has no modifier (the default, also known as package-private), it is visible only within its own package (packages are named groups of related classes — you will learn about them in a later lesson.)
 
 Thus, package-private (declaring no modifier) is the effect you would expect from declaring an "outer" class private, the syntax is just different.  
+
+
+## Author
+<pre class="prettyprint">
+Name     : Leonardo Taehwan Kim
+Email    : contact@thefinestartist.com
+Website  : http://www.thefinestartist.com
+</pre>

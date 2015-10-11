@@ -1,8 +1,8 @@
-#ORM
+## ORM
 An ORM (Object-Relational Mapping) is a tool that lets you query and manipulate data from a database using an object paradigm.
 It's a completely ordinary library written in your language that encapsulates the code needed to manipulate the data, so you don't use SQL anymore, but directly an object of your language.
 
-###Pros
+### Pros
 Using an ORM save a lot of time because
 
 * DRY : You write your data model in only one place, it's easier to update, maintain and reuse the code.
@@ -18,13 +18,13 @@ Using an ORM is more flexible because
 * The model is weakly bound to the rest of the app, so you can change it or use it anywhere else.
 * It let you use OOP goodness like data inheritance without head ache.
 
-###Cons
+### Cons
 * You have to learn it, and they are not lightweight tools
 * You have to set it up. Same problem.
 * Performances are ok for usual queries, but a SQL master will always do better with his little hands for the big dirty works.
 * It abstracts the DB. While it's ok if you know what's happening behind the scene, it's a trap for the noobs that can write very greedy statements, like a heavy hit in a for loop...
 
-##DAO
+## DAO
 DATA ACCESS OBJECT (DAO) is a object/interface, which is used to access data from database of data storage.
 
 **WHY WE USE DAO:** The Data Access Object Pattern, also known as the DAO pattern, abstracts the retrieval of data from a data resource such as a database. The concept is to "separate a data resource's client interface from its data access mechanism."
@@ -45,7 +45,7 @@ Its in all referred as **DAO Pattern**, It consist of following:
 **This Example will makes things more clear:**
 
 **1.Value Object:**
-```java
+<pre class="prettyprint">
 public class Student {
    private String name;
    private int rollNo;
@@ -71,36 +71,36 @@ public class Student {
       this.rollNo = rollNo;
    }
 }
-```
+</pre>
 
 
 **2.DAO Interface:**
 
-```java
+<pre class="prettyprint">
 import java.util.List;
 
 public interface StudentDao {
    /* defines standard operations to be performed on POJO*/
-   public List<Student> getAllStudents();
+   public List&lt;Student&gt; getAllStudents();
    public Student getStudent(int rollNo);
    public void updateStudent(Student student);
    public void deleteStudent(Student student);
 }
-```
+</pre>
 
 **3.DAO Concrete Class:**
 
-```java
+<pre class="prettyprint">
 import java.util.ArrayList;
 import java.util.List;
 
 public class StudentDaoImpl implements StudentDao {
 
    //list is working as a database
-   List<Student> students;
+   List&lt;Student&gt; students;
 
    public StudentDaoImpl(){
-      students = new ArrayList<Student>();
+      students = new ArrayList&lt;Student&gt;();
       Student student1 = new Student("Robert",0);
       Student student2 = new Student("John",1);
       students.add(student1);
@@ -115,7 +115,7 @@ public class StudentDaoImpl implements StudentDao {
 
    //retrive list of students from the database
    @Override
-   public List<Student> getAllStudents() {
+   public List&lt;Student&gt; getAllStudents() {
       return students;
    }
 
@@ -131,10 +131,10 @@ public class StudentDaoImpl implements StudentDao {
       +", updated in the database");
    }
 }
-```
+</pre>
 
 **4.Main Class**
-```java
+<pre class="prettyprint">
 public class DaoPatternDemo {
    public static void main(String[] args) {
       StudentDao studentDao = new StudentDaoImpl();
@@ -156,22 +156,22 @@ public class DaoPatternDemo {
       +student.getRollNo()+", Name : "+student.getName()+" ]");
    }
 }
-```
+</pre>
 
 
 
 I assume this things must have cleared your understanding of DAO up to certain extend.  
 
-##Major ORM Solutions
+## Major ORM Solutions
 
-###Speed
-ORMLite < Active Android < DB Flow < GreenDAO
+### Speed
+ORMLite &lt; Active Android &lt; DB Flow &lt; GreenDAO
 
-###ORMLite
+### ORMLite
 OrmLite is a Java ORM with SQL databases support. It can be used anywhere Java is used, such as JDBC connections, Spring, and also Android. It makes heavy usage of annotations.
 
 **Supporting Database**
-```java
+<pre class="prettyprint">
 MySQL
 Postgres
 H2
@@ -183,11 +183,11 @@ Netezza
 ODBC
 DB2
 Oracle
-```
+</pre>
 
 
 **Objects**
-```java
+<pre class="prettyprint">
 @DatabaseTable(tableName = "accounts")
 public class Account {
 
@@ -216,10 +216,10 @@ public class Account {
       this.password = password;
    }
 }
-```
+</pre>
 
-**Relations**
-```java
+**Relations**  
+<pre class="prettyprint">
 // One to many
 public class Game {
    @DatabaseField(columnName = "user", foreign = true)
@@ -229,13 +229,13 @@ public class Game {
 // Many to many
 public class Book {
    @ForeignCollectionField(eager = false)
-   ForeignCollection<Author> authors;
+   ForeignCollection&lt;Author&gt; authors;
 }
-```
+</pre>
 
 **Queries**
-```java
-Where<Account, String> where = queryBuilder.where();
+<pre class="prettyprint">
+Where&lt;Account, String&gt; where = queryBuilder.where();
 where.or(
    where.and(
       where.eq(Account.NAME_FIELD_NAME, "foo"),
@@ -243,12 +243,12 @@ where.or(
    where.and(
       where.eq(Account.NAME_FIELD_NAME, "bar"),
       where.eq(Account.PASSWORD_FIELD_NAME, "qwerty")));
-```
+</pre>
 
 **DAO**
-```java
+<pre class="prettyprint">
 ConnectionSource connectionSource = new JdbcConnectionSource("jdbc:h2:mem:account");
-Dao<Account, String> accountDao = DaoManager.createDao(connectionSource, Account.class);
+Dao&lt;Account, String&gt; accountDao = DaoManager.createDao(connectionSource, Account.class);
 
 // Create
 Account account = new Account();
@@ -270,19 +270,19 @@ accountDao.delete(account);
 
 // Refresh
 accountDao.refresh(account);
-```
+</pre>
 
 **Migrations**
-```java
+<pre class="prettyprint">
 public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, ConnectionSource connectionSource, int oldVersion, int newVersion) {
       // This allows you to adjust the various data to match the new version number.
 	}
 }
-```
+</pre>
 
-###GreenDAO
+### GreenDAO
 When it comes to performance, ‘fast’ and GreenDAO are synonymous. As stated on its website, “most entities can be inserted, updated and loaded at rates of several thousand entities per second”. If it wasn’t that good, these apps wouldn’t be using it. Compared to OrmLite, it is almost 4.5 times faster.
 
 * Uses code generation to avoid reflection
@@ -298,16 +298,16 @@ When it comes to performance, ‘fast’ and GreenDAO are synonymous. As stated 
 `SQLite`
 
 **Modeling Objects**
-```java
+<pre class="prettyprint">
 Entity user = schema.addEntity("User");
 user.addIdProperty();
 user.addStringProperty("name");
 user.addStringProperty("password");
 user.addIntProperty("yearOfBirth");
-```
+</pre>
 
 **Modeling Relations**
-```java
+<pre class="prettyprint">
 // One to many
 Property pictureIdProperty = user.addLongProperty("pictureId").getProperty();
 user.addToOne(picture, pictureIdProperty);
@@ -317,10 +317,10 @@ Property customerId = order.addLongProperty("customerId").notNull().getProperty(
 ToMany customerToOrders = customer.addToMany(order, customerId);
 customerToOrders.setName("orders"); // Optional
 customerToOrders.orderAsc(orderDate); // Optional
-```
+</pre>
 
 **DAO**
-```java
+<pre class="prettyprint">
 DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "example-db", null);
 SQLiteDatabase db = helper.getWritableDatabase();
 DaoMaster daoMaster = new DaoMaster(db);
@@ -341,7 +341,7 @@ public class BoxRepository {
         getBoxDao(context).delete(getBoxForId(context, id));
     }
 
-    public static List<Box> getAllBoxes(Context context) {
+    public static List&lt;Box&gt; getAllBoxes(Context context) {
         return getBoxDao(context).loadAll();
     }
 
@@ -360,10 +360,10 @@ box.setName("My box");
 box.setSlots(39);  
 box.setDescription("This is my box. I can put in it anything I wish.");  
 BoxRepository.insertOrUpdate(context, box);  
-```
+</pre>
 
 **Queries**
-```java
+<pre class="prettyprint">
 QueryBuilder qb = userDao.queryBuilder();
 qb.where(Properties.FirstName.eq("Joe"),
 qb.or(Properties.YearOfBirth.gt(1970),
@@ -373,9 +373,9 @@ List youngJoes = qb.list();
 // Raw Query
 Query query = userDao.queryBuilder().where(new StringCondition("_ID IN " + "(SELECT USER_ID FROM USER_MESSAGE WHERE READ_FLAG = 0)").build();
 List users = query.list();
-```
+</pre>
 
-###Active Android
+### Active Android
 Much like other ORMs, ActiveAndroid helps you store and retrieve records from SQLite without writing SQL queries.  
 * Using with content provider
 * Migration is not type safe  
@@ -387,7 +387,7 @@ Much like other ORMs, ActiveAndroid helps you store and retrieve records from SQ
 `SQLite`
 
 **Objects**
-```java
+<pre class="prettyprint">
 @Table(name = "Items")
 public class Item extends Model {
    // If name is omitted, then the field name is used.
@@ -407,10 +407,10 @@ public class Item extends Model {
       this.category = category;
    }
 }
-```
+</pre>
 
 **Relations**
-```java
+<pre class="prettyprint">
 // One to Many
 @Table(name = "Items")
 public class Item extends Model {
@@ -430,35 +430,35 @@ public class FooBar extends Model {
     @Column(name = "bar" onDelete=ForeignKeyAction.CASCADE)
     public Bar bar;
 
-    public List<Foo> foos() {
+    public List&lt;Foo&gt; foos() {
         return getMany(Foo.class, "FooBar");
     }
-    public List<Bar> bars() {
+    public List&lt;Bar&gt; bars() {
         return getMany(Bar.class, "FooBar");
     }
 }
-```
+</pre>
 
 **Queries**
-```java
+<pre class="prettyprint">
 public static Item getRandom() {
     return new Select().from(Item.class).orderBy("RANDOM()").executeSingle();
 }
-```
+</pre>
 
 **Migrations**
-```xml
+<pre class="prettyprint">
 // manifest.xml
-<meta-data android:name="AA_DB_NAME" android:value="Pickrand.db" />
-<meta-data android:name="AA_DB_VERSION" android:value="5" />
-```
-```sql
-// assets/migrations/<NewVersion>.sql
+&lt;meta-data android:name="AA_DB_NAME" android:value="Pickrand.db" /&gt;
+&lt;meta-data android:name="AA_DB_VERSION" android:value="5" /&gt;
+</pre>
+<pre class="prettyprint">
+// assets/migrations/&lt;NewVersion&gt;.sql
 ALTER TABLE Items ADD COLUMN color INTEGER;
-```
+</pre>
 
 
-###DB Flow
+### DB Flow
 A robust, powerful, and very simple ORM android database library with annotation processing.  
 The library is built on speed, performance, and approachability. It not only eliminates most boiler-plate code for dealing with databases, but also provides a powerful and simple API to manage interactions.
 * One of the fastest ORM
@@ -470,7 +470,7 @@ The library is built on speed, performance, and approachability. It not only eli
 `SQLite`
 
 **Objects**
-```java
+<pre class="prettyprint">
 @Table(databaseName = ColonyDatabase.NAME)
 public class Queen extends BaseModel {
 
@@ -482,10 +482,10 @@ public class Queen extends BaseModel {
   String name;
 
 }
-```
+</pre>
 
 **Relations**
-```java
+<pre class="prettyprint">
 // One to one
 @Table(databaseName = ColonyDatabase.NAME)
 public class Queen extends BaseModel {
@@ -509,7 +509,7 @@ public class Ant extends BaseModel {
                     columnType = Long.class,
                     foreignColumnName = "id")},
     saveForeignKeyModel = false)
-  ForeignKeyContainer<Queen> queen;
+  ForeignKeyContainer&lt;Queen&gt; queen;
 
 }
 
@@ -518,10 +518,10 @@ public class Ant extends BaseModel {
 @Table(databaseName = ColonyDatabase.NAME)
 public class Queen extends BaseModel {
 
-  private List<Ant> ants;
+  private List&lt;Ant&gt; ants;
 
   @OneToMany(methods = {OneToMany.Method.ALL})
-  public List<Ant> getMyAnts() {
+  public List&lt;Ant&gt; getMyAnts() {
     if(ants == null) {
       ants = new Select()
               .from(Ant.class)
@@ -531,10 +531,10 @@ public class Queen extends BaseModel {
     return ants;
   }
 }
-```
+</pre>
 
 **Queries**
-```java
+<pre class="prettyprint">
 // Nested conditions
 CombinedCondition
   .begin(CombinedCondition
@@ -543,27 +543,27 @@ CombinedCondition
   .or(CominedCondition
     .begin(Condition.column(MyTable$Table.NAME).is("Bob"))
       .and(Condition.column(MyTable$Table.RANK).eq(6))))
-```
+</pre>
 
 **Migrations**
-```java
+<pre class="prettyprint">
 @Migration(version = 2, databaseName = AppDatabase.NAME)
-public class Migration1 extends UpdateTableMigration<TestModel> {
+public class Migration1 extends UpdateTableMigration&lt;TestModel&gt; {
 
     @Override
     public void onPreMigrate() {
       // Simple ALTER TABLE migration wraps the statements into a nice builder notation
       addColumn(Long.class, "timestamp");
-      // UPDATE TestModel SET deviceType = "phablet" WHERE screenSize > 5.7 AND screenSize < 7;
+      // UPDATE TestModel SET deviceType = "phablet" WHERE screenSize &gt; 5.7 AND screenSize &lt; 7;
       set(Condition.column(TestModel$Table.DEVICETYPE)
         .is("phablet"))
         .where(Condition.column(TestModel$Table.SCREENSIZE).greaterThan(5.7),
                Condition.column(TestModel$Table.SCREENSIZE).lessThan(7))
     }
 }
-```
+</pre>
 
-###Parse
+### Parse
 Parse has ORM inside the library which supports both local and server database. You can CRUD object and save it into local database or server.  
 Since parse Android/iOS SDK doesn't support migration, Parse should be used like caching data to local database and make a week dependencies for local database than data from server.  
 Parse suggests very fine API design for Developer and so it's very easy to use.
@@ -572,14 +572,14 @@ Parse suggests very fine API design for Developer and so it's very easy to use.
 There is two ways to create and object.
 
 1. Simple way
-   ```java
+   <pre class="prettyprint">
    ParseObject shield = new ParseObject("Armor");
    shield.put("displayName", "Wooden Shield");
    shield.put("fireproof", false);
    shield.put("rupees", 50);
-   ```
+   </pre>
 2. Using subclasses
-   ```java
+   <pre class="prettyprint">
    @ParseClassName("Armor")
    public class Armor extends ParseObject {
       setDisplayName(String);
@@ -591,28 +591,28 @@ There is two ways to create and object.
    shield.setDisplayName("Wooden Shield");
    shield.setFireproof(false);
    shield.setRupees(50);
-   ```
+   </pre>
 
 **Relations**
-```java
+<pre class="prettyprint">
 // One to many
 ParseObject game = new ParseObject("Game");
 game.put("createdBy", ParseUser.getCurrentUser());
 
 // Many to many
 ParseObject book = new ParseObject("Book");
-ParseRelation<ParseObject> relation = book.getRelation("authors");
+ParseRelation&lt;ParseObject&gt; relation = book.getRelation("authors");
 relation.add(authorOne);
 relation.add(authorTwo);
 relation.add(authorThree);
-```
+</pre>
 
 **Queries**
-```java
-ParseQuery<ParseObject> query = ParseQuery.getQuery("GameScore");
+<pre class="prettyprint">
+ParseQuery&lt;ParseObject&gt; query = ParseQuery.getQuery("GameScore");
 query.whereEqualTo("playerName", "Dan Stemkoski");
-query.findInBackground(new FindCallback<ParseObject>() {
-   public void done(List<ParseObject> scoreList, ParseException e) {
+query.findInBackground(new FindCallback&lt;ParseObject&gt;() {
+   public void done(List&lt;ParseObject&gt; scoreList, ParseException e) {
       if (e == null) {
          Log.d("score", "Retrieved " + scoreList.size() + " scores");
       } else {
@@ -631,24 +631,24 @@ query.orderByDescending("score");
 query.addAscendingOrder("score");
 // Sorts the results in descending order by the score field if the previous sort keys are equal.
 query.addDescendingOrder("score");
-// Restricts to wins < 50
+// Restricts to wins &lt; 50
 query.whereLessThan("wins", 50);
-// Restricts to wins <= 50
+// Restricts to wins &lt;= 50
 query.whereLessThanOrEqualTo("wins", 50);
-// Restricts to wins > 50
+// Restricts to wins &gt; 50
 query.whereGreaterThan("wins", 50);
-// Restricts to wins >= 50
+// Restricts to wins &gt;= 50
 query.whereGreaterThanOrEqualTo("wins", 50);
-```
+</pre>
 
 **Migrations**
 No local migration supported.
 
-###Firebase
+### Firebase
 All Firebase database data is stored as JSON objects. There are no tables or records. When we add data to the JSON tree, it becomes a key in the existing JSON structure
 
 **Objects**
-```java
+<pre class="prettyprint">
 Firebase ref = new Firebase("https://docs-examples.firebaseio.com/android/saving-data/fireblog");
 public class User {
    private int birthYear;
@@ -675,15 +675,15 @@ User gracehop = new User("Grace Hopper", 1906);
 
 Firebase usersRef = ref.child("users");
 
-Map<String, User> users = new HashMap<String, User>();
+Map&lt;String, User&gt; users = new HashMap&lt;String, User&gt;();
 users.put("alanisawesome", alanisawesome);
 users.put("gracehop", gracehop);
 
 usersRef.setValue(users);
-```
+</pre>
 
 **Queries**
-```java
+<pre class="prettyprint">
 Firebase scoresRef = new Firebase("https://dinosaur-facts.firebaseio.com/scores");
 Query queryRef = scoresRef.orderByValue();
 
@@ -694,11 +694,11 @@ queryRef.addChildEventListener(new ChildEventListener() {
    }
    // ....
 });
-```
+</pre>
 
-##Author
-```
+## Author
+<pre class="prettyprint">
 Name     : Leonardo Taehwan Kim
 Email    : contact@thefinestartist.com
 Website  : http://www.thefinestartist.com
-```
+</pre>
