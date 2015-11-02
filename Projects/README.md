@@ -1,0 +1,27 @@
+- InstaStckr (Android)
+    - PM, Android, Web
+- Globee (Android/iOS)
+    - PM, Backend, Android, iOS, UX
+    - Globee is a native tutor matching service which provides similar user experience as Tinder. I carefully re-designed UX of the app and set up the server. Chanil and I developed the whole Android and iOS application.
+- Pread (Android)
+    - Android, UX
+- Bttendance (Android/iOS)
+    - CEO, Backend, Android, iOS, UX, Web
+    - BTTENDANCE provides 3 features as following: Automatic attendance checking system, smart clicker, notice
+- Vingle (Android)
+    - Android
+    - Vingle is an interest-based SNS service, and its mobile application has similar features as other SNS application such as Facebook or Pinterest does. e.g. signup, login, fetch feeds, like or clip contents and all other SNS related features. The application is officially released 23 February 2013. Chansuk and I developed the whole application from the back-end by handling network background services to the front-end by implementing customised GUI.
+- Music Off (Android/iOS)
+    - Owner, Android, iOS, UX
+    - Music Off is an Android application which helps people to turn their music off while they are sleeping. Simply, it is a music timer with automatic sleep checking algorithm. It is also implemented and launched as iOS application.
+- Tilt Code (Android)
+    - Backend, Android
+- Moving Key (Android)
+    - Android
+- Watch Out (Android)
+    - Android, UX
+- Candeo (Android)
+    - PM, Android
+- MusiCon (iOS)
+    - PM, UX
+    - MusiCon is
