@@ -59,7 +59,7 @@ It was weekend, maybe Saturday as I remember. I was trying to find an engineer w
 - Globee is a native tutor matching service, which has similar user interface to that of Tinder. I carefully re-designed user experience of the application from the first draft of wireframe, designed database model and developed server. Chanil and I developed the Android and iOS applications for Globee.
 
 #### Story
-I've been Boston to participate a program called KIC Start Mass Challenge Program. There were over 20 startups who want to apply a worldwide startup accelerator, Mass Challenge. We were taking accelerating course for 3 weeks in Boston University Questrom School of Business. This course helped us to learn how to make a pitch, how to build up our business, successful business story and etc. For 3 weeks, we were staying at the same hotel, taking the same courses and hanging around together and we get to know each other very well. After we graduate this course and go back to Korea, Junghak who is CEO of Zumanji said he really need me to help him to build up service called Globee and he really looked desperate. I couldn't say No. Anyway the concept looked nice to me and he said he just need prototype so that he can show the app to New York investors. Turns out his team was expecting very nice and high quality app. What a liaaaaar..ha..
+I've been Boston to participate a program called KIC Start Mass Challenge Program. There were over 20 startups who want to apply a worldwide startup accelerator, Mass Challenge. We were taking accelerating course for 3 weeks in Boston University Questrom School of Business. This course helped us to learn how to make a pitch, how to build up our business, successful business story and etc. For 3 weeks, we were staying at the same hotel, taking the same courses and hanging around together and we get to know each other very well. After we graduate this course and go back to Korea, Junghak who is CEO of Zumanji said he really need me to help him to build up service called Globee and he really looked desperate. I couldn't say No. Anyway the concept looked nice to me and he said he just need prototype so that he can show the app to New York investors. Turns out his team was expecting very nice and high quality app. What a liaaaaar..sighs..
 
 #### Period
 2015.05 ~ 2015.08
@@ -179,6 +179,9 @@ Since I was building business without any money support and Chanil has one. I ne
 - CEO, Server, Android, iOS, Homepage, UX Design
 - BTTENDANCE is a smart teaching assistant service. It provides 3 main features: automatic attendance checking system, smart clicker and quick notice. I developed back-end server, Android application, iOS application and homepage and designed user experience for BTTENDANCE.
 
+#### Story
+
+
 #### Period
 2013.11 ~ 2015.01
 
@@ -198,6 +201,52 @@ Since I was building business without any money support and Chanil has one. I ne
 - **Taekwon Nam**  
    <code id="inline">UX Design, UI Design, Graphic Design</code>
 
+#### Product Links
+- [<u>Android Application</u>](https://play.google.com/store/apps/details?id=com.bttendance)
+- [<u>Android Application</u>](https://itunes.apple.com/kr/app/bttendance-hagsaengdeul-ui/id829410376?mt=8)
+- [<u>Homepage</u>](http://www.bttendance.com/)
+- [<u>Github</u>](https://github.com/orgs/Bttendance)
+
+#### Integrated Open Sources
+- [<u>Sails</u>](https://github.com/balderdashy/sails)
+- [<u>Waterline</u>](https://github.com/balderdashy/waterline)
+- [<u>Rails</u>](https://github.com/rails/rails)
+- [<u>Crashlytics</u>](https://github.com/crashlytics)  
+<br/>
+- support/support-v4
+- support/appcompat-v7
+- support/cardview-v7
+- support/recyclerview-v7
+- android/play-services
+- [<u>JodaOrg:JodaTime</u>](https://github.com/JodaOrg/joda-time)
+- [<u>JakeWharton:NineOldAndroids</u>](https://github.com/JakeWharton/NineOldAndroids)
+- [<u>Square:Retrofit</u>](https://github.com/square/retrofit)
+- [<u>Square:Picasso</u>](https://github.com/square/picasso)
+- [<u>Square:Otto</u>](https://github.com/square/otto)
+- [<u>JakeWharton:Butterknife</u>](https://github.com/JakeWharton/butterknife)
+- [<u>Afollestad:MaterialDialogs</u>](https://github.com/afollestad/material-dialogs)
+- [<u>Google:Gson</u>](https://github.com/google/gson)
+- [<u>Square:Okhttp</u>](https://github.com/square/okhttp)
+- [<u>JakeWharton:ViewPagerIndicator</u>](https://github.com/JakeWharton/ViewPagerIndicator)
+- [<u>Jondwillis:AChartEngine</u>](https://github.com/jondwillis/AChartEngine)
+- [<u>Koush:AndroidAsync</u>](https://github.com/koush/AndroidAsync)
+- [<u>Uservoice:UservoiceAndroidSDK</u>](https://github.com/uservoice/uservoice-android-sdk)
+- [<u>Castorflex:SmoothProgressBar</u>](https://github.com/castorflex/SmoothProgressBar)
+- [<u>Nispok:Snackbar</u>](https://github.com/nispok/snackbar)
+- [<u>JakeWharton:DiskLruCache</u>](https://github.com/JakeWharton/DiskLruCache)  
+</br>
+- [<u>AFNetworking:AFNetworking</u>](https://github.com/AFNetworking/AFNetworking)
+- [<u>TTTAttributedLabel:TTTAttributedLabel</u>](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
+- [<u>Pkyeck:Socket.IO-objc</u>](https://github.com/pkyeck/socket.IO-objc)
+- [<u>Jdg:MBProgressHUD</u>](https://github.com/jdg/MBProgressHUD)
+- [<u>AFNetworking:AFNetworkActivityLogger</u>](https://github.com/AFNetworking/AFNetworkActivityLogger)
+- [<u>Romaonthego:RESideMenu</u>](https://github.com/romaonthego/RESideMenu)
+- [<u>Nicklockwood:SwipeView</u>](https://github.com/nicklockwood/SwipeView)
+- [<u>Uservoice:UservoiceIOSSDK</u>](https://github.com/uservoice/uservoice-ios-sdk)
+- [<u>OliverLetterer:SLExpandableTableView</u>](https://github.com/OliverLetterer/SLExpandableTableView)
+- [<u>Xyfeng:XYPieChart</u>](https://github.com/xyfeng/XYPieChart)
+
+
 ## Vingle
 
 #### Excerpt
@@ -206,7 +255,9 @@ Since I was building business without any money support and Chanil has one. I ne
 - Vingle is an interest based social network service and it has similar features to those of Pinterest, which allow you to signup, to fetch feeds, to like or save the posts. Chansuk and I developed the Android application for Vingle from the back-end by handling network to the front-end by implementing customized graphic user interface.
 
 #### Story
-
+I returned to school after finishing my military duty. During the military service, I made two apps. One is called Music Off, which is successfully launched. And another is called MusiCon, which I failed to launch and decided to stop the project even though it was 95% done. After the midterm, I found school is so boring and I wrote "I want to do startup stuff." on the Facebook. Taehoon who is high senior of mine and also the CEO of Watcha, one of the most popular startup in Korea, saw my post on the Facebook. He called me and made an appointment for dinner that day. He drove from Seoul to Daejun for 90 minutes and we had a dinner and beer. He somehow persuaded me to apply a resume for his company and we mailed my resume to his company in my dormitory.  
+After some hour, I thought like I should probably try to find some other startups, too. So I did and found Vingle, which looks a bit more professional and the CEO and COO already had experience in building up successful startup called Viki. I sent my resume to Vingle by myself this time. I started working for Vingle right after Christmas.  
+I think I'm kind of person who want to decide my life by myself. I feel really sorry for Taehoon. So sorry T.T
 
 #### Period
 2013.01 ~ 2013.06
@@ -246,8 +297,10 @@ Since I was building business without any money support and Chanil has one. I ne
 - Owner, Android, iOS, UX Design, Marketing
 - Music Off is an Android application, which helps people to turn their musics off while they are sleeping. Simply, it is a timer for music with automatic sleep checking algorithm. I designed user experience and developed Android and iOS applications for Music Off.
 
+#### Story
+
 #### Period
-2012.02 ~ Present
+2011.01 ~ Present
 
 #### Product Links
 - [<u>Android Application</u>](https://play.google.com/store/apps/details?id=com.utopia.musicoff)
@@ -258,20 +311,20 @@ Since I was building business without any money support and Chanil has one. I ne
 - **Leonardo Taehwan Kim**  
    <code id="inline">Owner, Android App Development, iOS App Developer, UX Design, Marketing</code>
 - **Jaehoon Lee**  
-   <code id="inline">iOS developer</code>
-
+   <code id="inline">iOS developer</code>  
+</br>
 - **Namhee Park**  
    <code id="inline">UI Design</code>
 - **Gyeol Han**  
    <code id="inline">UI Design</code>
 - **Min Kim**  
-   <code id="inline">Ui Design</code>
-
+   <code id="inline">Ui Design</code>  
+</br>
 - **La Lee**  
    <code id="inline">Marketing</code>
 - **Matthew Lee**  
-   <code id="inline">Marketing</code>
-
+   <code id="inline">Marketing</code>  
+</br>
 - **Andrew Younghwan Kim**  
    <code id="inline">English Transation</code>
 - **Dongjea Shin**  
@@ -279,11 +332,31 @@ Since I was building business without any money support and Chanil has one. I ne
 - **Jihoon Lyuh**  
    <code id="inline">Japanese Transation</code>
 - **Don Shin**  
-   <code id="inline">Chinese Transation</code>
-
+   <code id="inline">Chinese Transation</code>  
+</br>
 - **Sangrok Kim**  
    <code id="inline">Sponsor</code>
 
+#### Integrated Open Sources
+- [<u>Parse</u>](https://github.com/ParsePlatform)
+- [<u>Crashlytics</u>](https://github.com/crashlytics)  
+</br>
+- support/design
+- support/support-annotations
+- support/support-v4
+- support/appcompat-v7
+- android/play-services-ads
+- android/play-services-analytics
+- [<u>Square:Retrofit</u>](https://github.com/square/retrofit)
+- [<u>JakeWharton:Butterknife</u>](https://github.com/JakeWharton/butterknife)
+- [<u>TheFinestArtist:YouTubePlayerActivity</u>](https://github.com/TheFinestArtist/YouTubePlayerActivity)
+- [<u>Google:Gson</u>](https://github.com/google/gson)
+- [<u>Square:Otto</u>](https://github.com/square/otto)
+- [<u>Anjlab:IAB</u>](https://github.com/anjlab/android-inapp-billing-v3)
+- [<u>Orhanobut:Logger</u>](https://github.com/orhanobut/logger)
+- [<u>Rampo:UpdateChecker</u>](https://github.com/rampo/UpdateChecker)
+
+#### More
 1. Both Android & iOS implemented
 2. New version of Android App exist but never launched for some reason
 3. Over 3.5 million downloads
@@ -345,6 +418,9 @@ Since I was building business without any money support and Chanil has one. I ne
 - Server, Android, UX Design, UI Design
 - Tilt Code is a sophisticated algorithm for finding someone or something near you. It supports nearby messaging system using smartphone sensors such as gyroscope sensor, orientation sensor and GPS. I developed back-end server and Android application for Tilt Code. Also, I designed user experience and user interface of the application.
 
+#### Period
+2015.03 ~ 2015.03
+
 #### Team
 - **Seoyong Chang**  
    <code id="inline">Project Management, Business Development</code>
@@ -361,6 +437,9 @@ Since I was building business without any money support and Chanil has one. I ne
 - Android, UX Design, UI Design
 - Moving Key is a keyboard application that gives you extra key just by moving it up and down or left and right. I developed Android application and also re-designed user experience and user interface for Moving Key.
 
+#### Period
+2015.01 ~ 2015.02
+
 #### Team
 - **Seoyong Chang**  
    <code id="inline">Project Management, Business Development</code>
@@ -374,6 +453,9 @@ Since I was building business without any money support and Chanil has one. I ne
 - 2015/08/03
 - Android, UX Design, Web
 - Watch Out is a service that protects you from sexual violence. It shows you every sexual criminals' whereabouts and information about reported sexual violence. I developed Android application and designed user experience for Watch Out.
+
+#### Period
+2012.10 ~ 2013.10
 
 #### Team
 - **Yeram Kwon**  
@@ -393,6 +475,9 @@ Since I was building business without any money support and Chanil has one. I ne
 - PM, Android, UX Design
 - Candeo edits video using customized stickers, brushes and pens. Our team made this application for University course work. As a team leader, I designed user experience and developed Android application for Candeo.
 
+#### Period
+2012.02 ~ 2012.08
+
 #### Team
 - **Leonardo Taehwan Kim**  
    <code id="inline">Project Managing, Android App Development, UX Design</code>
@@ -411,6 +496,9 @@ Since I was building business without any money support and Chanil has one. I ne
 - PM, UX Design
 - MusiCon is a music player, which has a user interface that looks like an LP disc. It has many features such as music timer, music alarm and music history list. As a team leader, I designed user experience for MusiCon. Personally, I liked the design of this project a lot!
 
+#### Period
+2012.02 ~ 2012.08
+
 #### Team
 - **Leonardo Taehwan Kim**  
    <code id="inline">Project Managing, UX Design</code>
@@ -418,3 +506,48 @@ Since I was building business without any money support and Chanil has one. I ne
    <code id="inline">iOS App Development</code>
 - **Jongwook Micky Kim**  
    <code id="inline">UI Design, Graphic Design</code>
+
+#### Product Links
+- [<u>Android Application</u>](https://play.google.com/store/apps/details?id=com.bttendance)
+- [<u>Android Application</u>](https://itunes.apple.com/kr/app/bttendance-hagsaengdeul-ui/id829410376?mt=8)
+- [<u>Homepage</u>](http://www.bttendance.com/)
+- [<u>Github</u>](https://github.com/orgs/Bttendance)
+
+#### Integrated Open Sources
+- [<u>Sails</u>](https://github.com/balderdashy/sails)
+- [<u>Waterline</u>](https://github.com/balderdashy/waterline)
+- [<u>Rails</u>](https://github.com/rails/rails)
+- [<u>Crashlytics</u>](https://github.com/crashlytics)  
+<br/>
+- support/support-v4
+- support/appcompat-v7
+- support/cardview-v7
+- support/recyclerview-v7
+- android/play-services
+- [<u>JodaOrg:JodaTime</u>](https://github.com/JodaOrg/joda-time)
+- [<u>JakeWharton:NineOldAndroids</u>](https://github.com/JakeWharton/NineOldAndroids)
+- [<u>Square:Retrofit</u>](https://github.com/square/retrofit)
+- [<u>Square:Picasso</u>](https://github.com/square/picasso)
+- [<u>Square:Otto</u>](https://github.com/square/otto)
+- [<u>JakeWharton:Butterknife</u>](https://github.com/JakeWharton/butterknife)
+- [<u>Afollestad:MaterialDialogs</u>](https://github.com/afollestad/material-dialogs)
+- [<u>Google:Gson</u>](https://github.com/google/gson)
+- [<u>Square:Okhttp</u>](https://github.com/square/okhttp)
+- [<u>JakeWharton:ViewPagerIndicator</u>](https://github.com/JakeWharton/ViewPagerIndicator)
+- [<u>Jondwillis:AChartEngine</u>](https://github.com/jondwillis/AChartEngine)
+- [<u>Koush:AndroidAsync</u>](https://github.com/koush/AndroidAsync)
+- [<u>Uservoice:UservoiceAndroidSDK</u>](https://github.com/uservoice/uservoice-android-sdk)
+- [<u>Castorflex:SmoothProgressBar</u>](https://github.com/castorflex/SmoothProgressBar)
+- [<u>Nispok:Snackbar</u>](https://github.com/nispok/snackbar)
+- [<u>JakeWharton:DiskLruCache</u>](https://github.com/JakeWharton/DiskLruCache)  
+</br>
+- [<u>AFNetworking:AFNetworking</u>](https://github.com/AFNetworking/AFNetworking)
+- [<u>TTTAttributedLabel:TTTAttributedLabel</u>](https://github.com/TTTAttributedLabel/TTTAttributedLabel)
+- [<u>Pkyeck:Socket.IO-objc</u>](https://github.com/pkyeck/socket.IO-objc)
+- [<u>Jdg:MBProgressHUD</u>](https://github.com/jdg/MBProgressHUD)
+- [<u>AFNetworking:AFNetworkActivityLogger</u>](https://github.com/AFNetworking/AFNetworkActivityLogger)
+- [<u>Romaonthego:RESideMenu</u>](https://github.com/romaonthego/RESideMenu)
+- [<u>Nicklockwood:SwipeView</u>](https://github.com/nicklockwood/SwipeView)
+- [<u>Uservoice:UservoiceIOSSDK</u>](https://github.com/uservoice/uservoice-ios-sdk)
+- [<u>OliverLetterer:SLExpandableTableView</u>](https://github.com/OliverLetterer/SLExpandableTableView)
+- [<u>Xyfeng:XYPieChart</u>](https://github.com/xyfeng/XYPieChart)
