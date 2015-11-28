@@ -1,4 +1,16 @@
-Leonardo Taehwan Kim is an CEO and Artist who loves to make new products. He 
+Leonardo Taehwan Kim is an CEO and Artist who loves to make new products.
+
+With 5 years professional experiences in developing mobile applications, he published six Android applications and three iOS applications. He is capable of not only developing mobile applications but also backend server and homepage.
+
+
+Hello, I'm Leonardo Taehwan Kim.
+
+You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F, and A which stands for "The Finest Artist,” which is my slogan.
+
+I am a software engineer who has experience in developing products. I am capable of developing Android and iOS applications, backend server, and website homepage. Also, I’ve experience in designing user experiences, database structures, marketing through various channels such as Facebook, Instagram and influential blogs, optimizing business model, and developing businesses.
+
+Even though I value design, development, marketing and business equally, I tend to take software development more enthusiastically. Therefore, I am under the impression as a software engineer, more specifically a mobile application developer.
+
 
 Hello, I'm Leonardo Taehwan Kim.
 
