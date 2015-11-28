@@ -1,10 +1,31 @@
+Leonardo Taehwan Kim is an CEO and Artist who loves to make new products. He 
+
+Hello, I'm Leonardo Taehwan Kim.
+
+I am an Artist who loves to make new products. I am capable of designing user experiences, developing Android and iOS applications, developing backend server, developing homepage, designing database structures, marketing through various channels such as Facebook, Instagram and influential blogs, optimizing business model, developing business.
+
+Even though I value design, development, marketing and business equally, I tend to take software development more enthusiastically. Therefore, I am under the impression as a software engineer, more specifically a mobile application developer.
+
+I named myself as Leonardo, which has meaning of Lion, Da Vinci and DiCaprio. You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F and A which stands for "The Finest Artist", which is my slogan.
+
+
+
+Hello, I'm Leonardo Taehwan Kim.
+
+You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F, and A which stands for "The Finest Artist,” which is my slogan.
+
+I am a software engineer who has experience in developing products. I am capable of designing user experiences, Android and iOS applications, and backend server. Also, I’ve experience in developing website homepage, database structures, marketing through various channels such as Facebook, Instagram and influential blogs, optimizing business model, and developing businesses.
+Even though I value design, development, marketing and business equally, I tend to take software development more enthusiastically. Therefore, I am under the impression as a software engineer, more specifically a mobile application developer.
+
+
+
 Hello, I'm Leonardo Taehwan Kim.
 
 I am an Artist who loves to make new products. And I do have lots of experiences in developing products: I am capable of designing user experiences, developing Android and iOS applications, developing backend server, developing homepage, designing database structures, marketing through various channels such as Facebook, Instagram and influential blogs, optimizing business model, developing business.
 
 Even though I values design, development, marketing and business equally, my skill is little biased towards software development. Therefore, many people think that I'm just a software engineer, usually a mobile application developer.
 
-I named myself as Leonardo, which has meaning of Lion, Da Vinci and DiCaprio. You probably noticed that my logo looks just like a lion. The logo is made of 3 letters: T,F,A which stands for "The Finest Artist".
+I named myself as Leonardo, which has meaning of Lion, Da Vinci and DiCaprio. You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F and A which stands for "The Finest Artist", which is my slogan.
 
 
 
