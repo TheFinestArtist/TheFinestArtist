@@ -7,7 +7,7 @@ Hello, I'm Leonardo Taehwan Kim.
 
 You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F, and A which stands for "The Finest Artist,” which is my slogan.
 
-I am a software engineer who has experience in developing products. I am capable of developing Android and iOS applications, backend server, and website homepage. Also, I’ve experience in designing user experiences, database structures, marketing through various channels such as Facebook, Instagram and influential blogs, optimizing business model, and developing businesses.
+I am a product coordinator who has experience in developing products. I am capable of developing Android and iOS applications, backend server, and website homepage. Also, I’ve experience in designing user experiences, database structures, marketing through various channels such as Facebook, Instagram and influential blogs, optimizing business model, and developing businesses.
 
 Even though I value design, development, marketing and business equally, I tend to take software development more enthusiastically. Therefore, I am under the impression as a software engineer, more specifically a mobile application developer.
 

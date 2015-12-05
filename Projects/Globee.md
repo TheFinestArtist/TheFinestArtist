@@ -1,17 +1,17 @@
 ## Globee
 
-#### Excerpt
+### **Excerpt**
 - 2015/10/05
 - PM, Server, Android, iOS, UX Design
 - Globee is a native tutor matching service, which has similar user interface to that of Tinder. I carefully re-designed user experience of the application from the first draft of wireframe, designed database model and developed server. Chanil and I developed the Android and iOS applications for Globee.
 
-#### How did I get started?
+### **How did I get started?**
 When I was in Boston, I was in a program called KIC Start Mass Challenge Program. This program had over 20 startups companies who participate in this Mass Challenge. Myself included, we took accelerating courses for three weeks at Boston University Questrom School of Business. These courses helped us how to make a pitch, build our own businesses, and learned about other successful business stories. For three weeks, we stayed at a hotel, and eventually, I got closer with other participants. After the program ended and I went back to Korea, Junghak, a CEO for Zumanji, contacted me and said he needed my help to build a service app called Globee. I couldn’t reject his offer as he sounded urgent. Moreover, the concept of the app was appealing and since he just needed a prototype to show his New York investors, I agreed to help. However, the project turned out to be difficult as his investors were expecting a higher quality work.
 
-#### Period
+### **Period**
 2015.05 ~ 2015.08
 
-#### Team
+### **Team**
 - **Leonardo Taehwan Kim**  
    <code id="inline">Project Managing, Server Development, Android App Development, iOS App Development, UX Design</code>
 - **Chanil Kim**  
@@ -21,11 +21,11 @@ When I was in Boston, I was in a program called KIC Start Mass Challenge Program
 - **Junbum Shin**  
    <code id="inline">Wireframing</code>
 
-#### Product Links
+### **Products**
 - [<u>Android Application</u>](https://play.google.com/store/apps/details?id=kr.globee)
 - [<u>iOS Application</u>](https://itunes.apple.com/app/id1027749803?l=en)
 
-#### Integrated Open Sources
+### **Integrated Open Sources**
 - [<u>Parse</u>](https://github.com/ParsePlatform)
 - [<u>Crashlytics</u>](https://github.com/crashlytics)  
 <br/>
@@ -71,6 +71,6 @@ When I was in Boston, I was in a program called KIC Start Mass Challenge Program
 - [<u>Ninjinkun:NJKWebViewProgress</u>](https://github.com/ninjinkun/NJKWebViewProgress)
 - [<u>Rs:SDWebImage</u>](https://github.com/rs/SDWebImage)
 
-#### Trash
+### **Trash**
 
 I've been Boston to participate a program called KIC Start Mass Challenge Program. There were over 20 startups who want to apply a worldwide startup accelerator, Mass Challenge. We were taking accelerating course for 3 weeks in Boston University Questrom School of Business. This course helped us to learn how to make a pitch, how to build up our business, successful business story and etc. For 3 weeks, we were staying at the same hotel, taking the same courses and hanging around together and we get to know each other very well. After we graduate this course and go back to Korea, Junghak who is CEO of Zumanji said he really need me to help him to build up service called Globee and he really looked desperate. I couldn't say No. Anyway the concept looked nice to me and he said he just need prototype so that he can show the app to New York investors. Turns out his team was expecting very nice and high quality app. What a liaaaaar..sighs..

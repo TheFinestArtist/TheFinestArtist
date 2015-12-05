@@ -2,7 +2,7 @@
 
 ## YouTubePlayerActivity
 
-#### Excerpt
+### **Excerpt**
 - 2015/09/05
 - Android Library, Android Sample, UX Design, UI Design
 - YouTubePlayerActivity is an Android library, which plays YouTube video simply by passing the video url.
@@ -11,7 +11,7 @@
 
 ## InstaTag
 
-#### Excerpt
+### **Excerpt**
 - 2015/09/04
 - Android Sample, UX Design, UI Design
 - InstaTag is a sample Android application to edit and share photo. This sample application gives some idea to integrate Adobe Creative SDK.
@@ -20,7 +20,7 @@
 
 ## InstagRealm
 
-#### Excerpt
+### **Excerpt**
 - 2015/09/03
 - Android Sample, UX Design, UI Design
 - InstagRealm is a sample Android application, which shows you how to integrate some of the most popular Android libraries together such as Realm, Royal, RecyclerView, CardView, Retrofit, Fresco, EventBus, Butterknife, Material Dialog and Logger.
@@ -29,33 +29,33 @@
 
 ## MovingButton
 
-#### Excerpt
+### **Excerpt**
 - 2015/09/02
 - Android Library, Android Sample, UX Design, UI Design
 - MovingButton is an Android library which extends Android button that moves in eight direction.
 - https://github.com/TheFinestArtist/MovingButton
 
 
-## SimpleWebviewFragment
+## FinestWebView
 
-#### Excerpt
+### **Excerpt**
 - 2015/09/01
 - Android Library, Android Sample, UX Design, UI Design
-- SimpleWebviewFragment is a Android library which extends Android webview that has back, forward, refresh and share button in it.
-- https://github.com/TheFinestArtist/SimpleWebViewFragment
+- Beautiful and customizable Android Activity that shows web pages within an app.
+- https://github.com/TheFinestArtist/FinestWebView-Android
 
 
 ## Tilt Code
 
-#### Excerpt
+### **Excerpt**
 - 2015/08/05
 - Server, Android, UX Design, UI Design
 - Tilt Code is a sophisticated algorithm for finding someone or something near you. It supports nearby messaging system using smartphone sensors such as gyroscope sensor, orientation sensor and GPS. I developed back-end server and Android application for Tilt Code. Also, I designed user experience and user interface of the application.
 
-#### Period
+### **Period**
 2015.03 ~ 2015.03
 
-#### Team
+### **Team**
 - **Seoyong Chang**  
    <code id="inline">Project Management, Business Development</code>
 - **Leonardo Taehwan Kim**  
@@ -66,15 +66,15 @@
 
 ## Moving Key
 
-#### Excerpt
+### **Excerpt**
 - 2015/08/04
 - Android, UX Design, UI Design
 - Moving Key is a keyboard application that gives you extra key just by moving it up and down or left and right. I developed Android application and also re-designed user experience and user interface for Moving Key.
 
-#### Period
+### **Period**
 2015.01 ~ 2015.02
 
-#### Team
+### **Team**
 - **Seoyong Chang**  
    <code id="inline">Project Management, Business Development</code>
 - **Leonardo Taehwan Kim**  
@@ -83,15 +83,15 @@
 
 ## Watch Out
 
-#### Excerpt
+### **Excerpt**
 - 2015/08/03
 - Android, UX Design, Web
 - Watch Out is a service that protects you from sexual violence. It shows you every sexual criminals' whereabouts and information about reported sexual violence. I developed Android application and designed user experience for Watch Out.
 
-#### Period
+### **Period**
 2012.10 ~ 2013.10
 
-#### Team
+### **Team**
 - **Yeram Kwon**  
    <code id="inline">Project Managing, Business Development</code>
 - **Leonardo Taehwan Kim**  
@@ -104,15 +104,15 @@
 
 ## Candeo
 
-#### Excerpt
+### **Excerpt**
 - 2015/08/02
 - PM, Android, UX Design
 - Candeo edits video using customized stickers, brushes and pens. Our team made this application for University course work. As a team leader, I designed user experience and developed Android application for Candeo.
 
-#### Period
+### **Period**
 2012.02 ~ 2012.08
 
-#### Team
+### **Team**
 - **Leonardo Taehwan Kim**  
    <code id="inline">Project Managing, Android App Development, UX Design</code>
 - **Cheolhwan Hyun**  
@@ -125,15 +125,15 @@
 
 ## MusiCon
 
-#### Excerpt
+### **Excerpt**
 - 2015/08/01
 - PM, UX Design
 - MusiCon is a music player, which has a user interface that looks like an LP disc. It has many features such as music timer, music alarm and music history list. As a team leader, I designed user experience for MusiCon. Personally, I liked the design of this project a lot!
 
-#### Period
+### **Period**
 2012.02 ~ 2012.08
 
-#### Team
+### **Team**
 - **Leonardo Taehwan Kim**  
    <code id="inline">Project Managing, UX Design</code>
 - **Jaehoon Lee**  
