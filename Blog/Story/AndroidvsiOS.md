@@ -1,28 +1,24 @@
 # Android vs iOS
 
-I do not know how many developers in the world have ability to build proper Android and iOS applications at the same time. Since I have experience in developing and publishing both Android and iOS applications, I would like to compare these two platforms.
-
-To tell more about me, I have experience in developing Android applications for 5 years and iOS applications for 4 years. You would probably find more about my experience at my [portfolio page](http://thefinestartist.com/projects/). Some of my projects are open sourced: [BTTENDANCE](https://github.com/orgs/Bttendance/dashboard).
-
-Due to the fact that most of people living in my country uses Android phone, I have more strength in developing Android applications. But I found developing iOS applications is twice easier than building Android applications because of following reasons.
+I have been developing Android applications for 5 years and iOS applications for 4 years. Due to the fact that [<u>75% of South Korean uses Android phone</u>](http://thenextweb.com/mobile/2014/03/25/report-android-dominates-global-mobile-web-browsing-but-ios-owns-key-western-countries/), I have more strength in developing Android applications. But as one of the developer who has experience in developing both platforms, I would like to compare experience of developing Android application and iOS application.
+To say the conclusion first, I found developing Android applications is twice as tricky as developing iOS applications.
 
 
+## OS Version distribution
+As you may already know, [<u>Android version distribution</u>](http://developer.android.com/about/dashboards/index.html#Platform) is a lot messier than [<u>iOS version distribution</u>](https://developer.apple.com/support/app-store/). The latest version of Android which is Marshmallow (API 23) takes 0.3% of whole platform version while the latest version if iOS which is iOS9 takes 70% of whole platform versions. While I live in a country where most people uses Android devices, I have never seen anyone updates their Android OS and it seems [<u>Apple is winning Samsung</u>](http://pocketnow.com/2015/01/22/apple-samsung-market-share-korea) in South Korea. Even though Google releases new version of Android, you can not update the OS right away because the vender companies such as Samsung, LG, Sony, Huawei, Xiaomi have to update their customized OS with newly released version of Android for each devices they made. This updating process usually takes months and vender companies even decide not to update their OS for most of their devices because in this way they can make people to buy new phone if they really want to use newly updated OS.
 
-## Android phone and iPhone phone version distribution
-As you may already know, [Android version distribution](http://developer.android.com/about/dashboards/index.html#Platform) is dirtier than [iOS version distribution](https://developer.apple.com/support/app-store/). The latest version of Android which is Marshmallow (API 23) takes 0.3% of whole platform version while the latest version if iOS which is iOS9 takes 70% of whole platform versions. I don't know why Google made this new version called Marshmallow if 0.3% of users are using it! While I live in a country which most people uses Android, I have never seen anyone updates their Android OS and it seems [Apple is winning Samsung](http://pocketnow.com/2015/01/22/apple-samsung-market-share-korea) in South Korea. Even though Google releases new version of Android, you can not update the OS right away because the vender such as Samsung, LG, Sony, Huawei, Xiaomi have to update their customized OS with newly released version of Android for each devices they made. This updating process usually takes months and vender even decide not to update their OS for most of their devices because in this way they can make people to buy new phone if they want to use new OS.
-
-Due to these reasons, Android developers including Android SDK developers who works for Google, Android application developers and Android open source library developers have to make their applications and API to work from the version Eclair (API 7) or Ice Cream Sandwich (API 15). For your information, [Eclair was released at Oct, 2009](https://en.wikipedia.org/wiki/Android_Eclair) and [Ice Cream Sandwich was released at Oct, 2011](https://en.wikipedia.org/wiki/Android_Ice_Cream_Sandwich). This fact makes Android development really difficult because you have to support device which is almost 6 years old.
+Due to these reasons, Android developers including Android SDK developers who works for Google, Android application developers and Android open source library developers have to make their applications and API to work from the version Eclair (API 7) or Ice Cream Sandwich (API 15). For your information, [<u>Eclair was released at Oct, 2009</u>](https://en.wikipedia.org/wiki/Android_Eclair) and [<u>Ice Cream Sandwich was released at Oct, 2011</u>](https://en.wikipedia.org/wiki/Android_Ice_Cream_Sandwich). This fact makes Android development really difficult because you have to support OS which is almost 6 years old.
 
 
 
-## Android phone and iPhone screen size
-This website shows the [list of Android devices and their sceen sizes](http://www.emirweb.com/ScreenDeviceStatistics.php). This shows [iPhone screen sizes](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions). I can see there is only 4 kinds of resolutions for iPhone but do you know how many resolutions Android developers have to support? Supporting all kinds of resolutions makes developer really difficult and tricky to develop their application layout properly. Supporting all kinds of resolutions also gives designer more work and they have to be aware of [how to support multiple screens](http://developer.android.com/guide/practices/screens_support.html). This variety in device resolutions probably is good marketing point for Android devices, but at the same time it makes Android design not so perfect:designers can't design every single layout for all kinds of resolutions and developer as well. On the other hand, since iPhone has only 4 kinds of resolutions, designers can design for 4 kinds of resolutions which makes their app beautifully designed.
-Android suggest to use many kinds of resources according to device size, orientation, and etc. For example `values-land` is for landscape resources and `values-v21` is for recourses API higher than 21. There can be a lot of combinations such as `values-land-v21` or `values-land-v10`. This looks like very cool feature because you can customize all the recourses for various kinds of devices. But usually, developer use this for only these three `values-v21`, `values-land` and `values-sw600` folders. And the value itself is like CSS, cascading which makes this system confusing.
+## Device screen size
+This website shows the [<u>list of Android devices and their sceen sizes</u>](http://www.emirweb.com/ScreenDeviceStatistics.php). This shows [<u>iPhone screen sizes</u>](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions). I can see there is only 4 kinds of resolutions for iPhone but do you know how many resolutions Android developers have to support? Supporting all kinds of resolutions makes developer really difficult and tricky to develop their application layout properly. Supporting all kinds of resolutions also gives designer more work and they have to be aware of [<u>how to support multiple screens</u>](http://developer.android.com/guide/practices/screens_support.html). This variety in device resolutions probably is good marketing point for Android devices, but at the same time it makes Android design not so perfect:designers can't design every single layout for all kinds of resolutions and developer as well. On the other hand, since iPhone has only 4 kinds of resolutions, designers can design for 4 kinds of resolutions which makes their app beautifully designed.
+Android suggest to use many kinds of resources according to device size, orientation, and etc. For example <code id="inline">values-land</code> is for landscape resources and <code id="inline">values-v21</code> is for recourses API higher than 21. There can be a lot of combinations such as <code id="inline">values-land-v21</code> or <code id="inline">values-land-v10</code>. This looks like very cool feature because you can customize all the recourses for various kinds of devices. But usually, developer use this for only these three <code id="inline">values-v21</code>, <code id="inline">values-land</code> and <code id="inline">values-sw600</code> folders. And the value itself is like CSS, cascading which makes this system confusing.
 
 
 
-## Android Studio vs Xcode
-Android Studio is [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) for Android development and Xcode is IDE for iOS development. The first stable version of [Android Studio was released at Dec 2014](https://en.wikipedia.org/wiki/Android_Studio). The current version of Android Studio is 1.5 while the current version of Xcode is 7.1.1. Version 1.5 vs 7.1.1 is huge. Even though Android Studio supports many cool features than Eclipse, it stills has some issues. The biggest issue is Android Studio is pretty slow and it uses huge portion of CPU. It is not stable, sometimes it turns off unexpectedly. Sometimes, the layout rendering doesn't work: Mostly when you use custom views in your layout, it fails to show the preview. If you change single letter in the build.gradle file, Android Studio makes me to sync with newly updated gradle, even though I added new line or just a space. The build time is very slow, I think it is slower than Eclipse. Even though it succeeded in building a project, it somehow stuck in the middle and do nothing for a while: Mostly adb needs more time to send complied APK file to the device. I don't think the adb isn't stable either.
+## IDE - Android Studio vs Xcode
+Android Studio is [<u>IDE</u>](https://en.wikipedia.org/wiki/Integrated_development_environment) for Android development and Xcode is IDE for iOS development. The first stable version of [<u>Android Studio was released at Dec 2014</u>](https://en.wikipedia.org/wiki/Android_Studio). The current version of Android Studio is 1.5 while the current version of Xcode is 7.1.1. Version 1.5 vs 7.1.1 is huge. Even though Android Studio supports many cool features than Eclipse, it stills has some issues. The biggest issue is Android Studio is pretty slow and it uses huge portion of CPU. It is not stable, sometimes it turns off unexpectedly. Sometimes, the layout rendering doesn't work: Mostly when you use custom views in your layout, it fails to show the preview. If you change single letter in the build.gradle file, Android Studio makes me to sync with newly updated gradle, even though I added new line or just a space. The build time is very slow, I think it is slower than Eclipse. Even though it succeeded in building a project, it somehow stuck in the middle and do nothing for a while: Mostly ADB needs more time to send complied APK file to the device. I don't think the adb isn't stable either.
 
 Xcode also have some problems such as xib loading time is too long. It is even takes longer if it has a lot of views in the xib. Sometimes just open a file takes some time. Worst part is they uses main thread to open up a file, which makes you can't do anything while Xcode figure out how to open a file.
 
@@ -42,13 +38,13 @@ Handling models and views at the same place, calculating the height of view, cal
 ## Models
 
 #### Getter & Setter
-For iOS, getter & setter ends with one line. `@property` automatically creates getter & setter for developer and also can change the name of the method.
-```objc
+For iOS, getter & setter ends with one line. <code id="inline">@property</code> automatically creates getter & setter for developer and also can change the name of the method.
+<pre class="prettyprint">
 @property (getter=isFinished setter=setFinished) BOOL finished;
-```
+</pre>
 
 For Android, it needs 7 lines plus 2 more lines for indenting.
-```Java
+<pre class="prettyprint">
 boolean finished;
 
 public void setFinished(boolean finished) {
@@ -58,22 +54,22 @@ public void setFinished(boolean finished) {
 public boolean isFinished() {
    return this.finished;
 }
-```
+</pre>
 
 In Java, you are not recommended to use dot notation. But in Objective-C, dot notation actually calls the getter or setter method for you unlike Java, C, C++, which makes it is safe to use dot notation and also it looks far more simpler.
 
 
 #### Atomic
-You can make all objects in Objective-C atomic simply by adding `atomic` in `@property` setting.
-```objc
+You can make all objects in Objective-C atomic simply by adding <code id="inline">atomic</code> in <code id="inline">@property</code> setting.
+<pre class="prettyprint">
 @property (atomic, retain) NSNumber *count
-```
+</pre>
 
-In Java, you have to use `AtomicInteger` which extends `Number` and which made auto-boxing the number.
+In Java, you have to use <code id="inline">AtomicInteger</code> which extends <code id="inline">Number</code> and which made auto-boxing the number.
 
 
 ## EventBus vs Notification
-iOS supports `Notification` class which has authority to notify any of the class if something happens. But Java doesn't have these system. There is two major open source libraries for this one is called `EventBus` and another is called `Otto`.
+iOS supports <code id="inline">Notification</code> class which has authority to notify any of the class if something happens. But Java doesn't have these system. There is two major open source libraries for this one is called <code id="inline">EventBus</code> and another is called <code id="inline">Otto</code>.
 But the problem is it is happens in this case. You get some notification or event from background thread and you updated some UI without awaring this code block is not running UI thread. In this case, Android application actually runs very well which should give you an Exception. And the updated UI itself shows very strange behavior such as some part of view is missing, some part of view doesn't catch events or etc. You need days or weeks to find out this bug because you can't even guess that some code block is updating UI in background thread without causing any exception.
 
 
@@ -89,8 +85,9 @@ Simulator is an iOS virtual device provided by Apple. When you runs Simulator yo
 ## Gradle vs CocoaPods
 
 
-##
+## Jobs
 
+http://visual.ly/android-vs-ios-jobs
 
 
 
