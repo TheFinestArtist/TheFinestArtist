@@ -32,10 +32,10 @@ fullName.addTextChangedListener(new TextWatcher() {
 Simply by calling methods to update views such as <code id="inline">setText()</code> or <code id="inline">setBackgroundColor()</code>.
 
 ### Model -&gt; Presenter
-Usually model is updated by calling network service Apis. Whenever data has been retrieved from server, you can notify model has been changed to Presenter by callbacks such as <code id="inline">OnDataRecieved()</code>.
+Usually model is updated by calling network service Apis. Whenever data has been retrieved from server, you can notify model has been changed to Presenter by callbacks such as <code id="inline">updateEmail(String email)</code>.
 
 ### Presenter -&gt; Model
-This part is redundant with <code id="inline">Controller -&gt; Model</code> in MVC Pattern. Presenter handles users user actions is related to updating model, controller also takes care of it. It will update the data by calling setters such as <code id="inline">user.setEmail("contact@thefinestartist.com")</code>.
+This part is redundant with <code id="inline">Controller -&gt; Model</code> in MVC Pattern. Presenter handles users user actions is related to updating model, controller also takes care of it. It will update the data by calling setters such as <code id="inline">user.setEmail("leonardo@thefinestartist.com")</code>.
 
 
 ## MVP in Android
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Vie
 
    @Override
    public void updateUserInfoTextView(String info) {
-   userInfoTextView.setText(info);
+      userInfoTextView.setText(info);
    }
 }
 
@@ -153,7 +153,7 @@ public class MainPresenter {
 ## MVP in iOS/OSX
 Apple also suggests to follow <u>[MVC Pattern](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html)</u> which is actually MVP Pattern, to their iOS/OSX developers.  
 
-![](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller.jpg)
+![](https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png)
 
 
 ## Tools for MVP Pattern
