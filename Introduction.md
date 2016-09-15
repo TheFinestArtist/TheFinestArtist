@@ -18,7 +18,7 @@ I am an Artist who loves to make new products. I am capable of designing user ex
 
 Even though I value design, development, marketing and business equally, I tend to take software development more enthusiastically. Therefore, I am under the impression as a software engineer, more specifically a mobile application developer.
 
-I named myself as Leonardo, which has meaning of Lion, Da Vinci and DiCaprio. You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F and A which stands for "The Finest Artist", which is my slogan.
+You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F and A which stands for "The Finest Artist", which is my slogan.
 
 
 
@@ -37,14 +37,12 @@ I am an Artist who loves to make new products. And I do have lots of experiences
 
 Even though I values design, development, marketing and business equally, my skill is little biased towards software development. Therefore, many people think that I'm just a software engineer, usually a mobile application developer.
 
-I named myself as Leonardo, which has meaning of Lion, Da Vinci and DiCaprio. You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F and A which stands for "The Finest Artist", which is my slogan.
+You probably noticed that my logo resembles a lion. The logo is made of three letters: T,F and A which stands for "The Finest Artist", which is my slogan.
 
 
 
 
 Hello, I'm Leonardo Taehwan Kim.
-
-I named Leonardo after Lion, Da Vinci and DiCaprio: I liked to be a team leader, an artist and famous.
 
 You probably noticed that my logo (up there ⇡⇡⇡) looks just like a lion. But, did you know that it is made of three letters: T,F,A which stands for "The Finest Artist"?
 
@@ -58,8 +56,6 @@ Most of mobile and web application's user experience design is done by myself bu
 Leonardo Taehwan Kim, also known as The Finest Artist.
 
 I love making new products and even better if I make some money from it.
-
-I named myself as Leonardo, which is from Lion, Da Vinci and DiCaprio.
 
 Logo looks just like an lion. It also made of 3 letters: T,F,A which stands for "The Finest Artist".
 
